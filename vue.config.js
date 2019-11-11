@@ -129,7 +129,7 @@ module.exports = {
                 // 这是rem适配的配置
                 plugins: [
                     require('postcss-px2rem')({
-                        remUnit: 100
+                        remUnit: 75
                     })
                 ]
             },
